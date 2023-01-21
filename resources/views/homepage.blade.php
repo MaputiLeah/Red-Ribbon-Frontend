@@ -39,26 +39,14 @@
                 </div>
             </div>
         </nav>
-        <!-- Slide Home -->
-        <section class="page-section" id="home">
-            <div class="main-carousel">
-                <div class="cell"><img src="assets/img/slide/3.jpg"></div>
-                <div class="cell"><img src="assets/img/slide/2.jpg"></div>
-                <div class="cell"><img src="assets/img/slide/1.jpg"></div>
-                <div class="cell"><img src="assets/img/slide/4.jpg"></div>
-                <div class="cell"><img src="assets/img/slide/5.jpg"></div>
-                <div class="cell"><img src="assets/img/slide/6.png"></div>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                    <div class="masthead-subheading">Welcome To </div>
+                    <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+                    <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
             </div>
-                <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-                <script type="text/javascript">
-                $('.main-carousel').flickity({
-                // options
-                cellAlign: 'left',
-                wrapAround:true,
-                freeScroll: true
-                });
-                </script>
-        </section>
+        </header>
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="container">
