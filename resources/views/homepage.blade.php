@@ -5,11 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title> Red Ribbon </title>
+        <title> 2L Motor Accessories </title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">   
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
@@ -20,7 +21,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.png" alt="..." /></a>
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/team/navbar-logo.jpg" alt="..." /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -28,12 +29,10 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Announcement</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#announcement">Announcement</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Product</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Owner</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#location">Location</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact_us">Contact Us</a></li>
                         <li class="nav-item"><a class="nav-link btn btn-primary" href="{{ url('/login')}}">Login</a></li>
                     </ul>
                 </div>
@@ -42,59 +41,35 @@
         <!-- Masthead-->
         <header class="masthead" id="home">
             <div class="container">
-                    <div class="masthead-subheading">Welcome To </div>
-                    <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
-                    <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+                    <div class="masthead-subheading"></div>
+                    <div class="masthead-heading text-uppercase"></div>
             </div>
         </header>
-        <!-- Services-->
-        <section class="page-section" id="services">
-            <div class="container">
-                <div class="text-center">
+
+        <!-- Carousel -->
+        <br>
+        <br>
+        <div class="text-center">
                     <h2 class="section-heading text-uppercase">Announcement</h2>
-                    <h3 class="section-subheading text-muted">Red Ribbon Week <br /> 
-                                                            MORNING ANNOUNCEMENT</h3>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Coupon and Promos</h4>
-                        <p class="text-muted"> Foodpanda Weekend Deal <br />
-                                            Enjoy ₱100 OFF on any of your Red Ribbon favorites! <br />
-                                            Use promo code REDRIBBON100 Tap to order
-                                            <link href="foodpanda.ph/chain/cq1iq" rel="stylesheet" type="text/css" /> <br />
-                                            ₱299 Minimum Spend <br />
-                                            Promo Period: Jan. 7, 8, 14, 15, 21, 22, 28 & 29<br />
-                                            Coverage: All Red Ribbon foodpanda Store</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Prices</h4>
-                        <p class="text-muted">.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">New Flavors and Designs</h4>
-                        <p class="text-muted">New flavor and design are available now, just go to the product section to view and for more details.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
+        <br>
+        <br>
+        <div id="announcement" class="carousel" data-flickity='{ "autoPlay": true }'>
+            <div class="carousel-cell" style="background-image: url(assets/img/slide/1.jpg)"></div>
+            <div class="carousel-cell" style="background-image: url(assets/img/slide/2.jpg)"></div>
+            <div class="carousel-cell" style="background-image: url(assets/img/slide/3.jpg)"></div>
+            <div class="carousel-cell" style="background-image: url(assets/img/slide/4.jpg)"></div>    
+          </div>
+        <br>
+        <br>
+        
+       
         <!-- Portfolio Grid-->
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Product</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Featured Products</h2>
+                    <h3 class="section-subheading text-muted">Motor Parts & Accessories.</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -104,11 +79,11 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/1.png" alt="..." />
+                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Threads</div>
-                                <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                                <div class="portfolio-caption-heading">Accessories</div>
+                                <div class="portfolio-caption-subheading text-muted">Body Gears</div>
                             </div>
                         </div>
                     </div>
@@ -119,11 +94,11 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/2.png" alt="..." />
+                                <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Explore</div>
-                                <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                                <div class="portfolio-caption-heading">Accessories</div>
+                                <div class="portfolio-caption-subheading text-muted">Helmet</div>
                             </div>
                         </div>
                     </div>
@@ -137,8 +112,8 @@
                                 <img class="img-fluid" src="assets/img/portfolio/3.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Finish</div>
-                                <div class="portfolio-caption-subheading text-muted">Identity</div>
+                                <div class="portfolio-caption-heading">Accessories</div>
+                                <div class="portfolio-caption-subheading text-muted">LED lights</div>
                             </div>
                         </div>
                     </div>
@@ -149,11 +124,11 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/4.png" alt="..." />
+                                <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Lines</div>
-                                <div class="portfolio-caption-subheading text-muted">Branding</div>
+                                <div class="portfolio-caption-heading">Motor Parts</div>
+                                <div class="portfolio-caption-subheading text-muted">Tires</div>
                             </div>
                         </div>
                     </div>
@@ -164,11 +139,11 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/5.png" alt="..." />
+                                <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Southwest</div>
-                                <div class="portfolio-caption-subheading text-muted">Website Design</div>
+                                <div class="portfolio-caption-heading">Motor Parts</div>
+                                <div class="portfolio-caption-subheading text-muted">Engine spare parts</div>
                             </div>
                         </div>
                     </div>
@@ -179,11 +154,11 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/6.png" alt="..." />
+                                <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Window</div>
-                                <div class="portfolio-caption-subheading text-muted">Photography</div>
+                                <div class="portfolio-caption-heading">Equipments</div>
+                                <div class="portfolio-caption-subheading text-muted">Tools</div>
                             </div>
                         </div>
                     </div>
@@ -195,27 +170,28 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">HISTORY OF QUALITY, GREAT-TASTING CAKES AND PASTRIES</h3>
+                    <h3 class="section-subheading text-muted">"Change works best for the prepared mind"</h3>
                 </div>
                 <ul class="timeline">
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpeg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/.jpeg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4> 1997 </h4>
+                                <h4> 2010 </h4>
                                 <h4 class="subheading">Our Humble Beginnings</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">what started out as a hobby-induced business in Timog, Quezon City, expanded into a proudly Filipino-owned and professionally run business. Red Ribbon has grown to over 450 outlets all over the Philippines and over 30 stores in the US.</p></div>
+                            <div class="timeline-body"><p class="text-muted">From a humble shop with one mechanic (the owner itself) and a helper, it has evolved into a modern and well-equipped establishment catering to the needs of varied motorists. 2L Motor parts and accessories will always serve you well without extra cost. That is their establishment tradition</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpeg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/.jpeg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>October 2005</h4>
+                                <h4>2018</h4>
                                 <h4 class="subheading"> New Phase</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">With its acquisition by Jollibee Foods Corporation, Red Ribbon entered a new phase in its company history. The company soon became one of the biggest and fastest growing bakeshops in the Philippines and has since been a part of the Filipino family's celebrations and special moments.</p></div>
+                            <div class="timeline-body"><p class="text-muted">On the coming of the year 2018, the shop was slowly renovated to accommodate the incoming number of motors to be repaired. It has been an uphill journey and has been worthwhile despite of the difficulties. 
+                                                                            Is indeed proud of what they has accomplished for his family and profession.</p></div>
                         </div>
                     </li>
                     <li>
@@ -224,7 +200,9 @@
                             <div class="timeline-heading">
                                 <h4> Mission </h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">To serve great tasting food bringing the joy of eating to everyone.</p></div>
+                            <div class="timeline-body"><p class="text-muted">To provide quality service at affordable price,
+                                 to invent and improve devices that can be used for motor repair and maintenance,
+                                 to cooperate with the government and the private sector in environment-friendly projectsÂ within the line of motor service</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
@@ -233,7 +211,8 @@
                             <div class="timeline-heading">
                                 <h4> Vision </h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">To be the leader in the bakeshop industry and the most loved bakeshop brand in the Philippines.</p></div>
+                            <div class="timeline-body"><p class="text-muted">To be one of the top Philippine companies in the field of motor service.
+                                                                             To export Filipino inventions that are practical, innovative and reasonably priced for all motorists.</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
@@ -250,142 +229,61 @@
                 </ul>
             </div>
         </section>
-        <!-- Team-->
-        <section class="page-section bg-light" id="team">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Owner</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>Parveen Anand</h4>
-                            <p class="text-muted">Lead Designer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                            <h4>Diana Petersen</h4>
-                            <p class="text-muted">Lead Marketer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-                            <h4>Larry Parker</h4>
-                            <p class="text-muted">Lead Developer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-                </div>
-            </div>
-        </section>
+
         <!-- Clients-->
-        <div class="py-5">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
+       
+          <!-- Contact Start -->
+    <div class="container-xxl py-5" id = "contact_us">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <p class="fs-5 fw-bold text-primary">Contact Us</p>
+                    <h1 class="display-5 mb-5">If You Have Any Query, Please Contact Us</h1>
+                    <p class="mb-4"></a>Welcome to 2L Motorparts and Accessories's official Website! We sell motor parts and accessories at a low price! For questions and inquiries please message us 🙂</p>
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary py-3 px-4" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 450px;">
+                    <div class="position-relative rounded overflow-hidden h-100">
+                        <iframe class="position-relative w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.231680804827!2d125.5414483!3d8.950786800000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301c040fed8634f%3A0x63360d5bb625c6f3!2s2l%20Motor%20Parts%20%26%20Accesories!5e0!3m2!1sen!2sph!4v1675207607208!5m2!1sen!2sph"
+                        frameborder="0" style="min-height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                    <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
-                </form>
-            </div>
-        </section>
-          <!-- Location-->
-          <section class="page-section" id="location">
-          <div class="mapouter">
-            <div class="gmap_canvas">
-                <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=374&amp;height=369&amp;hl=en&amp;q=Red Ribbon butuian City&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-                    <a href="https://pdflist.com/" alt="pdf">Pdf</a></div>
-                    <style>.mapouter{position:relative;text-align:right;width:100%;height:369px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:369px;}.gmap_iframe {height:369px!important;}</style>
-                </div>
-          </section>
+    </div>
+    <!-- Contact End -->
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
@@ -393,7 +291,7 @@
                     <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2022</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/2LMPA/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-end">
@@ -414,23 +312,23 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Body Gear</h2>
+                                    <p class="item-intro text-muted">We Sell Bundle and Unbundled</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>Body Armor Motorcycle Bundle | Body Armor | Premium Half Gloves | Goggles | Chest Bag</p>
                                     <ul class="list-inline">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Threads
+                                            <strong>Sizes:</strong>
+                                            Large/XL/2XL/3XL/4XL
                                         </li>
                                         <li>
                                             <strong>Category:</strong>
-                                            Illustration
+                                            Accessories
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Close
                                     </button>
                                 </div>
                             </div>
@@ -449,10 +347,10 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Helmet</h2>
+                                    <p class="item-intro text-muted">New and cool designs is available!</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p></p>
                                     <ul class="list-inline">
                                         <li>
                                             <strong>Client:</strong>
@@ -616,6 +514,7 @@
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
